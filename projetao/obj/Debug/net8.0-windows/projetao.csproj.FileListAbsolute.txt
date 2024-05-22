@@ -1,0 +1,16 @@
+C:\Users\Aluno\Source\Repos\projetao\projetao\obj\Debug\net8.0-windows\projetao.Form1.resources
+C:\Users\Aluno\Source\Repos\projetao\projetao\obj\Debug\net8.0-windows\projetao.csproj.GenerateResource.cache
+C:\Users\Aluno\Source\Repos\projetao\projetao\obj\Debug\net8.0-windows\projetao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Source\Repos\projetao\projetao\obj\Debug\net8.0-windows\projetao.AssemblyInfoInputs.cache
+C:\Users\Aluno\Source\Repos\projetao\projetao\obj\Debug\net8.0-windows\projetao.AssemblyInfo.cs
+C:\Users\Aluno\Source\Repos\projetao\projetao\obj\Debug\net8.0-windows\projetao.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Source\Repos\projetao\projetao\bin\Debug\net8.0-windows\projetao.exe
+C:\Users\Aluno\Source\Repos\projetao\projetao\bin\Debug\net8.0-windows\projetao.deps.json
+C:\Users\Aluno\Source\Repos\projetao\projetao\bin\Debug\net8.0-windows\projetao.runtimeconfig.json
+C:\Users\Aluno\Source\Repos\projetao\projetao\bin\Debug\net8.0-windows\projetao.dll
+C:\Users\Aluno\Source\Repos\projetao\projetao\bin\Debug\net8.0-windows\projetao.pdb
+C:\Users\Aluno\Source\Repos\projetao\projetao\obj\Debug\net8.0-windows\projetao.dll
+C:\Users\Aluno\Source\Repos\projetao\projetao\obj\Debug\net8.0-windows\refint\projetao.dll
+C:\Users\Aluno\Source\Repos\projetao\projetao\obj\Debug\net8.0-windows\projetao.pdb
+C:\Users\Aluno\Source\Repos\projetao\projetao\obj\Debug\net8.0-windows\projetao.genruntimeconfig.cache
+C:\Users\Aluno\Source\Repos\projetao\projetao\obj\Debug\net8.0-windows\ref\projetao.dll
