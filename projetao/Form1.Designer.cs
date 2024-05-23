@@ -46,11 +46,14 @@
             btDot = new Button();
             btReset = new Button();
             tbResult = new TextBox();
+            btSqrt = new Button();
+            btPow = new Button();
+            btPerc = new Button();
             SuspendLayout();
             // 
             // bt1
             // 
-            bt1.Location = new Point(12, 265);
+            bt1.Location = new Point(12, 335);
             bt1.Name = "bt1";
             bt1.Size = new Size(64, 64);
             bt1.TabIndex = 0;
@@ -60,7 +63,7 @@
             // 
             // bt2
             // 
-            bt2.Location = new Point(82, 265);
+            bt2.Location = new Point(82, 335);
             bt2.Name = "bt2";
             bt2.Size = new Size(64, 64);
             bt2.TabIndex = 1;
@@ -70,7 +73,7 @@
             // 
             // bt3
             // 
-            bt3.Location = new Point(152, 265);
+            bt3.Location = new Point(152, 335);
             bt3.Name = "bt3";
             bt3.Size = new Size(64, 64);
             bt3.TabIndex = 2;
@@ -80,7 +83,7 @@
             // 
             // bt6
             // 
-            bt6.Location = new Point(152, 195);
+            bt6.Location = new Point(152, 265);
             bt6.Name = "bt6";
             bt6.Size = new Size(64, 64);
             bt6.TabIndex = 5;
@@ -90,7 +93,7 @@
             // 
             // bt5
             // 
-            bt5.Location = new Point(82, 195);
+            bt5.Location = new Point(82, 265);
             bt5.Name = "bt5";
             bt5.Size = new Size(64, 64);
             bt5.TabIndex = 4;
@@ -100,7 +103,7 @@
             // 
             // bt4
             // 
-            bt4.Location = new Point(12, 195);
+            bt4.Location = new Point(12, 265);
             bt4.Name = "bt4";
             bt4.Size = new Size(64, 64);
             bt4.TabIndex = 3;
@@ -110,7 +113,7 @@
             // 
             // bt9
             // 
-            bt9.Location = new Point(152, 125);
+            bt9.Location = new Point(152, 195);
             bt9.Name = "bt9";
             bt9.Size = new Size(64, 64);
             bt9.TabIndex = 8;
@@ -120,7 +123,7 @@
             // 
             // bt8
             // 
-            bt8.Location = new Point(82, 125);
+            bt8.Location = new Point(82, 195);
             bt8.Name = "bt8";
             bt8.Size = new Size(64, 64);
             bt8.TabIndex = 7;
@@ -130,7 +133,7 @@
             // 
             // bt7
             // 
-            bt7.Location = new Point(12, 125);
+            bt7.Location = new Point(12, 195);
             bt7.Name = "bt7";
             bt7.Size = new Size(64, 64);
             bt7.TabIndex = 6;
@@ -184,8 +187,8 @@
             // 
             // btEqual
             // 
-            btEqual.BackColor = SystemColors.InactiveCaption;
-            btEqual.Location = new Point(152, 335);
+            btEqual.BackColor = SystemColors.MenuHighlight;
+            btEqual.Location = new Point(222, 405);
             btEqual.Name = "btEqual";
             btEqual.Size = new Size(64, 64);
             btEqual.TabIndex = 15;
@@ -195,7 +198,7 @@
             // 
             // bt0
             // 
-            bt0.Location = new Point(82, 335);
+            bt0.Location = new Point(82, 405);
             bt0.Name = "bt0";
             bt0.Size = new Size(64, 64);
             bt0.TabIndex = 17;
@@ -206,7 +209,7 @@
             // btDot
             // 
             btDot.BackColor = SystemColors.InactiveCaption;
-            btDot.Location = new Point(12, 335);
+            btDot.Location = new Point(152, 405);
             btDot.Name = "btDot";
             btDot.Size = new Size(64, 64);
             btDot.TabIndex = 18;
@@ -216,7 +219,7 @@
             // 
             // btReset
             // 
-            btReset.BackColor = SystemColors.ActiveCaption;
+            btReset.BackColor = SystemColors.Highlight;
             btReset.Location = new Point(222, 89);
             btReset.Name = "btReset";
             btReset.Size = new Size(64, 30);
@@ -234,11 +237,47 @@
             tbResult.TabIndex = 20;
             tbResult.TextAlign = HorizontalAlignment.Right;
             // 
+            // btSqrt
+            // 
+            btSqrt.BackColor = SystemColors.InactiveCaption;
+            btSqrt.Location = new Point(152, 125);
+            btSqrt.Name = "btSqrt";
+            btSqrt.Size = new Size(64, 64);
+            btSqrt.TabIndex = 21;
+            btSqrt.Text = "x^1/2";
+            btSqrt.UseVisualStyleBackColor = false;
+            btSqrt.Click += btOperation_Click;
+            // 
+            // btPow
+            // 
+            btPow.BackColor = SystemColors.InactiveCaption;
+            btPow.Location = new Point(82, 125);
+            btPow.Name = "btPow";
+            btPow.Size = new Size(64, 64);
+            btPow.TabIndex = 22;
+            btPow.Text = "^";
+            btPow.UseVisualStyleBackColor = false;
+            btPow.Click += btOperation_Click;
+            // 
+            // btPerc
+            // 
+            btPerc.BackColor = SystemColors.InactiveCaption;
+            btPerc.Location = new Point(12, 125);
+            btPerc.Name = "btPerc";
+            btPerc.Size = new Size(64, 64);
+            btPerc.TabIndex = 23;
+            btPerc.Text = "%";
+            btPerc.UseVisualStyleBackColor = false;
+            btPerc.Click += btOperation_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(298, 407);
+            ClientSize = new Size(298, 479);
+            Controls.Add(btPerc);
+            Controls.Add(btPow);
+            Controls.Add(btSqrt);
             Controls.Add(tbResult);
             Controls.Add(btReset);
             Controls.Add(btDot);
@@ -260,7 +299,6 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculator";
-            Load += Calculator_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -285,5 +323,8 @@
         private Button btDot;
         private Button btReset;
         private TextBox tbResult;
+        private Button btSqrt;
+        private Button btPow;
+        private Button btPerc;
     }
 }

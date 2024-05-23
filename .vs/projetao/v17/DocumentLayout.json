@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Source\\Repos\\calculator-WindowsForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02BB895B-D013-4B67-AB3F-428710EE1690}|projetao\\projetao.csproj|C:\\Users\\Aluno\\Source\\Repos\\calculator-WindowsForms\\projetao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{02BB895B-D013-4B67-AB3F-428710EE1690}|projetao\\projetao.csproj|solutionrelative:projetao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{02BB895B-D013-4B67-AB3F-428710EE1690}|projetao\\projetao.csproj|C:\\Users\\Aluno\\Source\\Repos\\calculator-WindowsForms\\projetao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02BB895B-D013-4B67-AB3F-428710EE1690}|projetao\\projetao.csproj|solutionrelative:projetao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02BB895B-D013-4B67-AB3F-428710EE1690}|projetao\\projetao.csproj|c:\\users\\aluno\\source\\repos\\calculator-windowsforms\\projetao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02BB895B-D013-4B67-AB3F-428710EE1690}|projetao\\projetao.csproj|solutionrelative:projetao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02BB895B-D013-4B67-AB3F-428710EE1690}|projetao\\projetao.csproj|c:\\users\\aluno\\source\\repos\\calculator-windowsforms\\projetao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02BB895B-D013-4B67-AB3F-428710EE1690}|projetao\\projetao.csproj|solutionrelative:projetao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,22 +21,25 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Source\\Repos\\calculator-WindowsForms\\projetao\\Form1.cs",
               "RelativeDocumentMoniker": "projetao\\Form1.cs",
               "ToolTip": "C:\\Users\\Aluno\\Source\\Repos\\calculator-WindowsForms\\projetao\\Form1.cs",
               "RelativeToolTip": "projetao\\Form1.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwCsAAAAAAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAA1wEMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T11:48:19.141Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Source\\Repos\\calculator-WindowsForms\\projetao\\Form1.cs",
               "RelativeDocumentMoniker": "projetao\\Form1.cs",
@@ -44,12 +47,7 @@
               "RelativeToolTip": "projetao\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T12:02:54.586Z",
-              "IsPinned": true,
               "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

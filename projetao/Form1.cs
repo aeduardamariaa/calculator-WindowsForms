@@ -44,7 +44,20 @@ namespace projetao
                     break;
                 case "/":
                     Resultado = Valor / Convert.ToDecimal(tbResult.Text);
+                    break;
 
+                case "x^1/2":
+                    Resultado = (decimal) Math.Sqrt(
+                        Convert.ToDouble(Valor)
+                        );
+                    break;
+
+                case "^":
+                    Resultado = (decimal) Math.Pow(Convert.ToDouble(Valor), Convert.ToDouble(tbResult.Text));
+                    break;
+
+                case "%":
+                    Resultado = Valor * (Convert.ToDecimal(tbResult.Text)/100);
                     break;
             }
             tbResult.Text = Convert.ToString(Resultado);
@@ -54,11 +67,6 @@ namespace projetao
         {
             Resultado = 0;
             tbResult.Clear();
-        }
-
-        private void Calculator_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
