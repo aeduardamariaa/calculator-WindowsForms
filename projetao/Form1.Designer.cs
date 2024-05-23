@@ -178,7 +178,7 @@
             btMult.Name = "btMult";
             btMult.Size = new Size(64, 64);
             btMult.TabIndex = 12;
-            btMult.Text = "x";
+            btMult.Text = "*";
             btMult.UseVisualStyleBackColor = false;
             btMult.Click += btOperation_Click;
             // 
@@ -210,7 +210,7 @@
             btDot.Name = "btDot";
             btDot.Size = new Size(64, 64);
             btDot.TabIndex = 18;
-            btDot.Text = ".";
+            btDot.Text = ",";
             btDot.UseVisualStyleBackColor = false;
             btDot.Click += btDigit_Click;
             // 
@@ -223,6 +223,7 @@
             btReset.TabIndex = 19;
             btReset.Text = "C";
             btReset.UseVisualStyleBackColor = false;
+            btReset.Click += btReset_Click;
             // 
             // tbResult
             // 
@@ -258,7 +259,8 @@
             Controls.Add(bt1);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Calculator";
+            Load += Calculator_Load;
             ResumeLayout(false);
             PerformLayout();
         }

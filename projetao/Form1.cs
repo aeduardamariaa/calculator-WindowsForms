@@ -21,9 +21,9 @@ namespace projetao
         private void btOperation_Click(object sender, EventArgs e)
         {
             var operation = (Button)sender;
+            Valor = Convert.ToDecimal(tbResult.Text);
             tbResult.Text += operation.Text;
             OperacaoSelecionada = operation.Text;
-            Valor = Convert.ToDecimal(tbResult.Text);
             tbResult.Text = "";
         }
 
@@ -38,7 +38,7 @@ namespace projetao
                     Resultado = Valor - Convert.ToDecimal(tbResult.Text);
 
                     break;
-                case "x":
+                case "*":
                     Resultado = Valor * Convert.ToDecimal(tbResult.Text);
 
                     break;
@@ -48,6 +48,17 @@ namespace projetao
                     break;
             }
             tbResult.Text = Convert.ToString(Resultado);
+        }
+
+        private void btReset_Click(object sender, EventArgs e)
+        {
+            Resultado = 0;
+            tbResult.Clear();
+        }
+
+        private void Calculator_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
